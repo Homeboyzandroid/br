@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class MainActivity extends AppCompatActivity {
 
     GridView gridview;
-    ImageAdapter lviewAdapter;
+   // ImageAdapter lviewAdapter;
     ArrayList<HashMap<String, String>> oslist = new ArrayList<HashMap<String, String>>();
 
     private final static String web[] = {"About",

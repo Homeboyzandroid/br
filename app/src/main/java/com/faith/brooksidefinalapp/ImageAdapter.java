@@ -18,23 +18,27 @@ public class ImageAdapter extends BaseAdapter {
 
 
     public ImageAdapter(Context context, String[] web, int[] imageid){
+        mContext = context;
         this.web = web;
        this.Imageid = imageid;
-        Context mcontext = context;
+
     }
 
     @Override
     public int getCount() {
-        return 0;
+        // TODO Auto-generated method stub
+        return web.length;
     }
 
     @Override
     public Object getItem(int position) {
+        // TODO Auto-generated method stub
         return null;
     }
 
     @Override
     public long getItemId(int position) {
+        // TODO Auto-generated method stub
         return 0;
     }
 
@@ -42,8 +46,7 @@ public class ImageAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         // TODO Auto-generated method stub
         View grid;
-        LayoutInflater inflater = (LayoutInflater) mContext
-                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         if (convertView == null) {
 
