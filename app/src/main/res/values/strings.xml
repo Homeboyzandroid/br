@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Brookside final app</string>
+    <string name="title_activity_maps_activations">Map</string>
 </resources>

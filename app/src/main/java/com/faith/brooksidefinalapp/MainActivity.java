@@ -1,13 +1,11 @@
 package com.faith.brooksidefinalapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ImageView;
-
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,18 +17,19 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<HashMap<String, String>> oslist = new ArrayList<HashMap<String, String>>();
 
     private final static String web[] = {"Register",
-            "Statistics",
-            "About",
-            "Route",
-            "Calender",
+            "Activators",
+            "Stock",
+            "Schedule",
+            "Locations",
             "Settings",
             };
     private final static int []imageId =
-            {R.drawable.about,
-                    R.drawable.graph,
-                    R.drawable.info,
-                    R.drawable.route,
+            {       R.drawable.about,
+                    R.drawable.index,
+                    R.drawable.stock,
                     R.drawable.events,
+                    R.drawable.location,
+                    R.drawable.settngs,
                     R.drawable.chalenge,
                     };
 
@@ -54,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 1:
                         startActivity(new Intent(getApplicationContext(), statistics.class));
+                        break;
+                    case 4:
+                        startActivity(new Intent(getApplicationContext(), MapsActivations.class));
                         break;
                 }
             }
