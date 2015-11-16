@@ -18,20 +18,20 @@ public class MainActivity extends AppCompatActivity {
    // ImageAdapter lviewAdapter;
     ArrayList<HashMap<String, String>> oslist = new ArrayList<HashMap<String, String>>();
 
-    private final static String web[] = {"About",
-            "Challange",
-            "Register",
-            "News",
-            "Fitness",
+    private final static String web[] = {"Register",
+            "Statistics",
+            "About",
+            "Route",
             "Calender",
+            "Settings",
             };
     private final static int []imageId =
             {R.drawable.about,
-                    R.drawable.chalenge,
-                    R.drawable.about,
                     R.drawable.graph,
-                    R.drawable.reg,
+                    R.drawable.info,
                     R.drawable.route,
+                    R.drawable.events,
+                    R.drawable.chalenge,
                     };
 
     @Override

@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.faith.brooksidefinalapp.statistics">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/but1"
+        android:background="#3D9432"
+        android:text="NO. OF ACTIVATORS"
+        android:textSize="20sp"
+        android:elevation="2dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/but2"
+        android:background="#3D9432"
+        android:text="STOCK AVAILABLE"
+        android:textSize="20sp"
+        android:elevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/but3"
+        android:background="#3D9432"
+        android:text="SCHEDULE FOR DELIVERY"
+        android:textSize="20sp"
+        android:elevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/but4"
+        android:background="#3D9432"
+        android:text="ACTIVATORS ON GROUND"
+        android:textSize="20sp"
+        android:elevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
 
-</RelativeLayout>
+
+</LinearLayout>
